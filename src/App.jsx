@@ -1,9 +1,7 @@
 import './App.css';
-import './ToDoInput.css'
-import './ToDoItem.css'
-import ToDoInput from './ToDoInput.jsx'
+import ToDoInput from './components/Todo/ToDoInput.jsx'
 import { useState } from "react";
-import ToDoItem from './ToDoItem.jsx';
+import ToDoItem from './components/Todo/ToDoItem.jsx';
 
 export default function App() {
   const [items, setItems] = useState([]);
