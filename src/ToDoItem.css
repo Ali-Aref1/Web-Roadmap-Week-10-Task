@@ -1,0 +1,17 @@
+#toDoItem{
+    width:400px;
+}
+#toDoItemWrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.deleteButton{
+    border-radius:100%;
+    font-weight:bold;
+    border:none;
+    cursor:pointer;
+}
+
+hr{
+    opacity:0.2;
+}

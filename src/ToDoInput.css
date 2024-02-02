@@ -1,0 +1,33 @@
+#Todowrapper{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:400px;
+    height:40px;
+    border-radius:40px;
+    gap:15px;
+    background-color: white;
+    filter:drop-shadow(0px 0px 3px rgb(191, 191, 191));
+  }
+  #Todowrapper button{
+    height:42px;
+    width:25px;
+    border:none;
+    background:none;
+    cursor: pointer;
+    font-weight:bolder;
+    font-size:10pt;
+  }
+  #Todowrapper input[type=text]{
+    height:37px;
+    width:270px;
+    border:none;
+    font-size:12pt;
+    transform:translateX(-25px);
+  }
+  #Todowrapper input:focus{
+    outline: none;
+  }
+  #Todowrapper button:focus{
+    outline: none;
+  }
