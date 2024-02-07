@@ -8,7 +8,7 @@ const [input, setInput] = React.useState('')
     <div id="Todowrapper">
         <input type="text" id="addTodo" placeholder="Add Todo..." value={input} onChange={(e)=>setInput(e.target.value)}/>
         <button id="submit" onClick={()=>{
-          if(input !== ''){
+          if(input.trim() !== ''){
           setItems([...items,input])
           setInput('')
           }
